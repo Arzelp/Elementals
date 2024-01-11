@@ -1,0 +1,1 @@
+Elementals is a basic mod modifying Arrows to put some gems powder on hit, creating several effects.

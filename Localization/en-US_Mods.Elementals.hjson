@@ -1,0 +1,11 @@
+Items: {
+	RubyPowder: {
+		DisplayName: Ruby Powder
+		Tooltip: ""
+	}
+
+	TopazPowder: {
+		DisplayName: Topaz Powder
+		Tooltip: ""
+	}
+}
