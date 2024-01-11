@@ -31,12 +31,14 @@ namespace Elementals.Projectiles
         public override bool OnTileCollide(Vector2 oldVelocity) {
             Projectile.penetrate--;
 
-            if (!Projectile.penetrate) {
+            if (Projectile.penetrate <= 0) {
                 Projectile.Kill();
             } else {
                 Collision.HitTiles(Projectile.position, Projectile.velocity, Projectile.width, Projectile.height);
                 SoundEngine.PlaySound(SoundID.Item10, Projectile.position);
             }
+
+            return false;
         }
 
         public override bool PreDraw(ref Color lightColor) {

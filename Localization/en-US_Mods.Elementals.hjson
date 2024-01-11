@@ -8,4 +8,11 @@ Items: {
 		DisplayName: Topaz Powder
 		Tooltip: ""
 	}
+
+	EnlightedArrow: {
+		DisplayName: Enlighted Arrow
+		Tooltip: ""
+	}
 }
+
+Projectiles.EnlightedArrow.DisplayName: Enlighted Arrow

@@ -1,10 +1,11 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Elementals.Content.Items.Components;
 
-namespace TutorialM.Items.Ammo
+namespace Elementals.Content.Items.Ammo
 {
-    public class EliteArrow : ModItem
+    public class EnlightedArrow : ModItem
     {
         public override void SetDefaults() {
             Item.width = 13;
@@ -16,16 +17,17 @@ namespace TutorialM.Items.Ammo
             Item.maxStack = 1000;
             Item.consumable = true;
             Item.knockBack = 3f;
-            Item.value = Item.sellPrice(copper: 90);
+            Item.value = Item.sellPrice(copper: 50);
             Item.rare = ItemRarityID.Blue;
 
-            Item.ammo = Item.type;
+            Item.ammo = AmmoID.Arrow;
             Item.shoot = ModContent.ProjectileType<Projectiles.EnlightedArrow>();
         }
 
         public override void AddRecipes() {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.Wood, 1);
+            recipe.AddIngredient(ItemID.WoodenArrow, 1);
+            recipe.AddIngredient<TopazPowder>(3);
             recipe.AddTile(TileID.WorkBenches);
             recipe.Register();
         }
