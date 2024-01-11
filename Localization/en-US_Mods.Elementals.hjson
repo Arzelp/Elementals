@@ -16,3 +16,10 @@ Items: {
 }
 
 Projectiles.EnlightedArrow.DisplayName: Enlighted Arrow
+
+Buffs: {
+	BurnDebuff: {
+		DisplayName: Burn Debuff
+		Description: Mods.Elementals.Buffs.BurnDebuff.Description
+	}
+}
