@@ -11,7 +11,7 @@ namespace Elementals.Content.Items.Components
             Item.width = 10;
             Item.height = 10;
             Item.maxStack = 999;
-            Item.value = Item.sellPrice(copper: 10);
+            Item.value = Item.sellPrice(silver: 2);
         }
 
         public override void AddRecipes() {
