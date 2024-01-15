@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace Elementals.Content.Buffs
 {
-    public class BurnDebuff : ModBuff
+    public class PlayerBurnDebuff : ModBuff
     {
         public override void SetStaticDefaults() {
             Main.debuff[Type] = true;
@@ -36,4 +36,5 @@ namespace Elementals.Content.Buffs
             }
         }
     }
+
 }
