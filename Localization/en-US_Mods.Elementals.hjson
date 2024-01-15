@@ -13,6 +13,19 @@ Items: {
 		DisplayName: Enlighted Arrow
 		Tooltip: ""
 	}
+
+	ColdArrow: {
+		Tooltip: ""
+		DisplayName: Cold Arrow
+	}
+
+	SapphirePowder: {
+		DisplayName: Sapphire Powder
+		Tooltip: ""
+	}
 }
 
-Projectiles.EnlightedArrow.DisplayName: Enlighted Arrow
+Projectiles: {
+	EnlightedArrow.DisplayName: Enlighted Arrow
+	ColdArrow.DisplayName: Cold Arrow
+}
