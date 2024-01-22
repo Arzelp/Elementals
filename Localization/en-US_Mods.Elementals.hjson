@@ -23,9 +23,20 @@ Items: {
 		DisplayName: Sapphire Powder
 		Tooltip: ""
 	}
+
+	PiercingArrow: {
+		DisplayName: Piercing Arrow
+		Tooltip: ""
+	}
+
+	AmethystPowder: {
+		DisplayName: Amethyst Powder
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
 	EnlightedArrow.DisplayName: Enlighted Arrow
 	ColdArrow.DisplayName: Cold Arrow
+	PiercingArrow.DisplayName: Piercing Arrow
 }
