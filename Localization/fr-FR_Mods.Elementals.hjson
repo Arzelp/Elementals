@@ -1,0 +1,42 @@
+Items: {
+  RubyPowder: {
+    DisplayName: Poudre de Rubis
+    Tooltip: "Poudre obtenue en broyant des rubis"
+  }
+
+  TopazPowder: {
+    DisplayName: Poudre de Topaze
+    Tooltip: "Poudre obtenue en broyant des topazes"
+  }
+
+  EnlightedArrow: {
+    DisplayName: Flèche lumineuse
+    Tooltip: "Flèche illuminé par de la poudre de topaze"
+  }
+
+  ColdArrow: {
+    Tooltip: "Flèche gelée, capable de ralentir les ennemis"
+    DisplayName: Cold Arrow
+  }
+
+  SapphirePowder: {
+    DisplayName: Poudre de Saphir
+    Tooltip: "Poudre obtenue en broyant des saphirs"
+  }
+
+  PiercingArrow: {
+    DisplayName: Flèche perforante
+    Tooltip: "Flèche capable d'accélérer d'elle-même et de transpercer jusqu'à 1 ennemi"
+  }
+
+  AmethystPowder: {
+    DisplayName: Poudre d'améthyste
+    Tooltip: "Poudre obtenue en broyant des améthystes"
+  }
+}
+
+Projectiles: {
+  EnlightedArrow.DisplayName: Flèche lumineuse
+  ColdArrow.DisplayName: Flèche gelée
+  PiercingArrow.DisplayName: Flèche perforante
+}

@@ -1,37 +1,37 @@
 Items: {
 	RubyPowder: {
 		DisplayName: Ruby Powder
-		Tooltip: ""
+		Tooltip: "Powder obtained by crushing Ruby"
 	}
 
 	TopazPowder: {
 		DisplayName: Topaz Powder
-		Tooltip: ""
+		Tooltip: "Powder obtained by crushing Topaz"
 	}
 
 	EnlightedArrow: {
 		DisplayName: Enlighted Arrow
-		Tooltip: ""
+		Tooltip: "Arrow enlighted by Topaz Powder"
 	}
 
 	ColdArrow: {
-		Tooltip: ""
+		Tooltip: "Cold arrow able to slow enemies"
 		DisplayName: Cold Arrow
 	}
 
 	SapphirePowder: {
 		DisplayName: Sapphire Powder
-		Tooltip: ""
+		Tooltip: "Powder obtained by crushing Sapphire"
 	}
 
 	PiercingArrow: {
 		DisplayName: Piercing Arrow
-		Tooltip: ""
+		Tooltip: "Accelerating arrow capable to hit up to 2 targets"
 	}
 
 	AmethystPowder: {
 		DisplayName: Amethyst Powder
-		Tooltip: ""
+		Tooltip: "Powder obtained by crushing Amethyst"
 	}
 }
 
