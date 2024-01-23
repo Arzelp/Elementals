@@ -56,6 +56,7 @@ Projectiles: {
 	PiercingArrow.DisplayName: Flèche perforante
 	// Test.DisplayName: Test
 	// PoisonousArrow.DisplayName: Poisonous Arrow
+	// OldPoisonousArrow.DisplayName: Old Poisonous Arrow
 }
 
 Buffs: {
