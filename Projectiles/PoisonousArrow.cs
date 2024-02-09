@@ -13,9 +13,33 @@ namespace Elementals.Projectiles
 {
 	public class PoisonousArrow : ModProjectile
 	{
+
+		public bool IsStickingToTarget {
+			get => Projectile.ai[0] == 1f;
+			set => Projectile.ai[0] = value ? 1f : 0f;
+		}
+
+		// Index of the current target
+		public int TargetWhoAmI {
+			get => (int)Projectile.ai[1];
+			set => Projectile.ai[1] = value;
+		}
+
+		public int GravityDelayTimer {
+			get => (int)Projectile.ai[2];
+			set => Projectile.ai[2] = value;
+		}
+
+		public float StickTimer {
+			get => Projectile.localAI[0];
+			set => Projectile.localAI[0] = value;
+		}
+
+	    private const int StickTime = 60 * 10; // 10 seconds
+
 		public override void SetDefaults() {
-			Projectile.width = 16;
-			Projectile.height = 16;
+			Projectile.width = 10;
+			Projectile.height = 10;
 			Projectile.aiStyle = 1;
 			Projectile.friendly = true;
 			Projectile.hostile = false;
@@ -28,6 +52,13 @@ namespace Elementals.Projectiles
 			Projectile.extraUpdates = 1;
 			AIType = ProjectileID.WoodenArrowFriendly;
 		}
+
+	    public override void AI() {
+            StickTimer += 1f;
+            if (StickTimer >= StickTime) {
+                Projectile.Kill();
+            }
+	    }
 
         public override bool PreDraw(ref Color lightColor) {
             Main.instance.LoadProjectile(Projectile.type);
