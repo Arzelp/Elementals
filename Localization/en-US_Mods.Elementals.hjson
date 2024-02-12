@@ -48,6 +48,16 @@ Items: {
 		DisplayName: Poisonous Arrow
 		Tooltip: ""
 	}
+
+	Diowball: {
+		DisplayName: Diowball
+		Tooltip: ""
+	}
+
+	DiowBall: {
+		DisplayName: Diow Ball
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -57,6 +67,7 @@ Projectiles: {
 	Test.DisplayName: Test
 	PoisonousArrow.DisplayName: Poisonous Arrow
 	OldPoisonousArrow.DisplayName: Old Poisonous Arrow
+	DiowBall.DisplayName: Diow Ball
 }
 
 Buffs: {
