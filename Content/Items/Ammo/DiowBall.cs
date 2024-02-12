@@ -27,7 +27,7 @@ namespace Elementals.Content.Items.Ammo
 
         public override void AddRecipes() {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.Snowball, 1)
+            recipe.AddIngredient(ItemID.Snowball, 1);
             recipe.AddIngredient<SapphirePowder>(5);
             recipe.AddTile(TileID.WorkBenches);
             recipe.Register();

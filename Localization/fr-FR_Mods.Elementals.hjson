@@ -58,6 +58,16 @@ Items: {
 		// DisplayName: Diow Ball
 		// Tooltip: ""
 	}
+
+	AmberPowder: {
+		// DisplayName: Amber Powder
+		// Tooltip: ""
+	}
+
+	DiamondPowder: {
+		// DisplayName: Diamond Powder
+		// Tooltip: ""
+	}
 }
 
 Projectiles: {

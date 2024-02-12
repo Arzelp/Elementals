@@ -5,7 +5,7 @@ using Terraria.DataStructures;
 
 namespace Elementals.Content.Items.Components
 {
-    public class AmethystPowder : ModItem
+    public class DiamondPowder : ModItem
     {
         public override void SetDefaults() {
             Item.width = 10;
