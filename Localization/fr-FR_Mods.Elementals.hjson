@@ -40,33 +40,33 @@ Items: {
 	}
 
 	EmeraldPowder: {
-		// DisplayName: Emerald Powder
-		// Tooltip: ""
+		DisplayName: Emerald Powder
+		Tooltip: Poudre obtenue en broyant des émeraudes
 	}
 
 	PoisonousArrow: {
-		// DisplayName: Poisonous Arrow
-		// Tooltip: ""
+		DisplayName: Flèche empoisonnée
+		Tooltip: Une flèche qui inflige des dégâts sur la durée
 	}
 
 	Diowball: {
-		// DisplayName: Diowball
-		// Tooltip: ""
+		DisplayName: Boule de neige diamantée
+		Tooltip: Une boule de neige incrustée de poudre de diamant pour infliger des dégâts plus lourds
 	}
 
 	DiowBall: {
-		// DisplayName: Diow Ball
-		// Tooltip: ""
+		DisplayName: Boule de neige diamantée
+		Tooltip: Une boule de neige incrustée de poudre de diamant pour infliger des dégâts plus lourds
 	}
 
 	AmberPowder: {
-		// DisplayName: Amber Powder
-		// Tooltip: ""
+		DisplayName: Poudre d'ambre
+		Tooltip: Poudre obtenue en broyant des ambres
 	}
 
 	DiamondPowder: {
-		// DisplayName: Diamond Powder
-		// Tooltip: ""
+		DisplayName: Poudre de diamant
+		Tooltip: Poudre obtenue en broyant des diamants
 	}
 }
 
@@ -75,14 +75,14 @@ Projectiles: {
 	ColdArrow.DisplayName: Flèche gelée
 	PiercingArrow.DisplayName: Flèche perforante
 	// Test.DisplayName: Test
-	// PoisonousArrow.DisplayName: Poisonous Arrow
+	PoisonousArrow.DisplayName: Flèche empoisonnée
 	// OldPoisonousArrow.DisplayName: Old Poisonous Arrow
-	// DiowBall.DisplayName: Diow Ball
+	DiowBall.DisplayName: Boule de neige diamantée
 }
 
 Buffs: {
 	PoisonousArrowDebuff: {
-		// DisplayName: Poisonous Arrow Debuff
-		// Description: Mods.Elementals.Buffs.PoisonousArrowDebuff.Description
+		DisplayName: Poison de flèche
+		Description: Inflige des dégâts sur la durée
 	}
 }

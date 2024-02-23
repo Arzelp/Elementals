@@ -83,6 +83,6 @@ Projectiles: {
 Buffs: {
 	PoisonousArrowDebuff: {
 		DisplayName: Poisonous Arrow Debuff
-		Description: Mods.Elementals.Buffs.PoisonousArrowDebuff.Description
+		Description: Inflicts damages over time
 	}
 }
