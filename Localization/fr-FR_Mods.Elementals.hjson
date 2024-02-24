@@ -68,6 +68,11 @@ Items: {
 		DisplayName: Poudre de diamant
 		Tooltip: Poudre obtenue en broyant des diamants
 	}
+
+	StoneFireSword: {
+		// DisplayName: Stone Fire Sword
+		// Tooltip: ""
+	}
 }
 
 Projectiles: {

@@ -68,6 +68,11 @@ Items: {
 		DisplayName: Diamond Powder
 		Tooltip: ""
 	}
+
+	StoneFireSword: {
+		DisplayName: Stone Fire Sword
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
